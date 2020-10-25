@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm invertime</h1>
+<h1 align="center">Hi 👋, I'm Invertime</h1>
 <h3 align="center">i'm student and i wanna be ful stack develloper 💻</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=invertime" alt="invertime" /> </p>
