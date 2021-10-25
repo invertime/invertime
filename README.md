@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Invertime</h1>
-<h3 align="center">I'm a student and I wanna be full stack developer 💻</h3>
+<h3 align="center">I'm a student and I want to be full stack developer 💻</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=invertime" alt="invertime" /> </p>
 
@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **some cool projects (shh)**
 
-- 🌱 I’m currently learning **Vue.js, Express & MongoDB**
+- 🌱 I’m currently learning **C++ and Python**
 
 - 👨‍💻 All of my projects are available on my personnal website at [www.invertime.ml](https://www.invertime.ml)
 
