@@ -1,36 +1,37 @@
-```php
-<?php
+```cpp
+namespace invertime;
 
-namespace Invertime;
+class About : public Me {
 
-class About extends Me
-{
-    public function getCurrentWorkplace(): array
-    {
-        return [
-            'workplace' => [
-                'place' => 'High school',
-                'position' => 'Student'         
-            ]
-        ];
-    }
+    private:
+        map<string, string> CurrentWorkplace = {
+                { 'Place', 'High School' },
+                { 'Position', 'Student' }
+            };
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Html::class,
-            Css::class,
-            Javascript::class,
-            Php::class,            
-            Laravel::class,
-            Vuejs::class,
-            CyberSecurity::class,
-        ];
-    }
+        string dailyKnowledge = {
+            "Html", 
+            "CSS",
+            "JavaScript",
+            "Php",
+            "Laravel",
+            "Vuejs",
+            "C++",
+            "CyberSecurity"
+        }
 
-    public function getFutureGoal(): string
-    {
-        return 'To get a job in cybersecurity';
-    }
+    public:
+
+        map<string, string> getCurrentWorkplace(){            
+            return CurrentWorkplace
+        };
+
+        string getDailyKnowledge(){
+            return dailyKnowledge
+        }
+
+        string getFuturGoal(){
+            return "To get a job in cybersecurity"
+        }
 }
 ```
