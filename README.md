@@ -5,7 +5,7 @@ class About : public Me {
 
     private:
         map<string, string> CurrentWorkplace = {
-                { 'Place', 'High School' },
+                { 'Place', 'Higher school preparatory classes' },
                 { 'Position', 'Student' }
             };
 
@@ -16,6 +16,8 @@ class About : public Me {
             "Php",
             "Laravel",
             "Vuejs",
+            "C",
+            "Ocaml",
             "C++",
             "CyberSecurity"
         }
