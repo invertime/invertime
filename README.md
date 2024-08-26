@@ -9,12 +9,12 @@ class About : public Me {
                 { 'Position', 'Student' }
             };
 
-        string dailyKnowledge = {
+        string randomKnowledge = {
             "Html", 
             "CSS",
             "JavaScript",
+            "Typescript",
             "Php",
-            "Laravel",
             "Vuejs",
             "C",
             "Ocaml",
@@ -29,7 +29,7 @@ class About : public Me {
         };
 
         string getDailyKnowledge(){
-            return dailyKnowledge
+            return randomKnowledge
         }
 
         string getFuturGoal(){
