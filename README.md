@@ -5,7 +5,7 @@ class About : public Me {
 
     private:
         map<string, string> CurrentWorkplace = {
-                { 'Place', 'Higher school preparatory classes' },
+                { 'Place', 'Telecom Nancy | Engineering school' },
                 { 'Position', 'Student' }
             };
 
